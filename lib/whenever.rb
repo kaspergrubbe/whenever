@@ -1,9 +1,10 @@
 require 'chronic'
 
+warn 'loading whenever'
 # It was previously defined as a dependency of this gem, but that became
 # problematic. See: http://github.com/javan/whenever/issues#issue/1
 begin
-  warn 'using the new gem'
+  warn 'loading activesupport'
   require 'active_support'
 rescue LoadError
   warn 'To use Whenever you need the active_support gem:'
