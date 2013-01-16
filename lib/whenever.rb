@@ -1,3 +1,4 @@
+require 'rubygems'
 require 'chronic'
 
 # It was previously defined as a dependency of this gem, but that became
